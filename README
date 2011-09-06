@@ -1,0 +1,6 @@
+schedule2icals.pl: create ical files for pagerduty schedules
+
+Output:
+* file per defined Pagerduty schedule with events for each user
+* file per seen user with events for the periods they are on call named
+  for the schedule
