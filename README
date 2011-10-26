@@ -4,3 +4,8 @@ Output:
 * file per defined Pagerduty schedule with events for each user
 * file per seen user with events for the periods they are on call named
   for the schedule
+
+
+on_call_now.pl: retrieve the name of the person on call now
+Leaves data in a hash, will package for the CPAN if there is interest but
+easily embeded
